@@ -1,0 +1,23 @@
+*{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.app{
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)),url("./images/bc.avif") center center no-repeat fixed;
+    background-size: cover;
+}
+.lg{
+    color: rgb(141, 136, 136);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    flex-direction: column;
+}
+.hr{
+    width: 95%;
+    background: gray;
+}
