@@ -5,6 +5,7 @@
 .app{
     background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)),url("./images/bc.avif") center center no-repeat fixed;
     background-size: cover;
+    min-height: 100vh;
 }
 .lg{
     color: rgb(141, 136, 136);
