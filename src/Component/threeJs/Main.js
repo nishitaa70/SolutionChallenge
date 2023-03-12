@@ -7,6 +7,7 @@ import { Suspense } from 'react'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { Model } from './Untitled'
 import Model1  from './Monkey'
+import Model2  from './LL'
 
 const Main = () => {
 
@@ -80,6 +81,14 @@ const Main = () => {
                 <directionalLight position={[1, 1, 1]} intensity="1" />
                 <Suspense fallback={null}>
                     <Model1 />
+                </Suspense>
+            </Canvas>
+            <Canvas>
+                <ambientLight intensity="1" />
+                <OrbitControls enableZoom={false} />
+                <directionalLight position={[1, 1, 1]} intensity="1" />
+                <Suspense fallback={null}>
+                    <Model2 />
                 </Suspense>
             </Canvas>
         </div>
