@@ -5,7 +5,8 @@ import texture from "../../images/tex1.jpeg"
 import { TextureLoader } from 'three'
 import { Suspense } from 'react'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
-import Model from '../../Model'
+import { Model } from './Untitled'
+import Model1  from './Monkey'
 
 const Main = () => {
 
@@ -45,7 +46,7 @@ const Main = () => {
             </>
         )
     }
-   
+
 
     return (
         <div className="threeD">
@@ -66,10 +67,19 @@ const Main = () => {
                 {/* </Suspense> */}
             </Canvas>
             <Canvas>
+                <ambientLight intensity="1" />
+                <OrbitControls enableZoom={false} />
+                <directionalLight position={[1, 1, 1]} intensity="1" />
                 <Suspense fallback={null}>
                     <Model />
-                    <OrbitControls />
-                    <Environment preset="sunset" background />
+                </Suspense>
+            </Canvas>
+            <Canvas>
+                <ambientLight intensity="1" />
+                <OrbitControls enableZoom={false} />
+                <directionalLight position={[1, 1, 1]} intensity="1" />
+                <Suspense fallback={null}>
+                    <Model1 />
                 </Suspense>
             </Canvas>
         </div>
