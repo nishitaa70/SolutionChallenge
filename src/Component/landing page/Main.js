@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Heading from '../comp/Heading'
 import "./landingpage.css"
 
@@ -14,7 +15,7 @@ const Main = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="img center">
-                        <img src={require("../../images/c1.jpeg")} className="d-block w-100" alt="..." />
+                        <img src={require("../../images/c1.jpg")} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
@@ -23,7 +24,7 @@ const Main = () => {
                     </div>
                     <div className="carousel-item">
                     <div className="img center">
-                        <img src={require("../../images/c3.jpeg")} className="d-block w-100" alt="..." />
+                        <img src={require("../../images/c3.jpg")} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
@@ -32,7 +33,7 @@ const Main = () => {
                     </div>
                     <div className="carousel-item">
                     <div className="img center">
-                        <img src={require("../../images/c2.jpeg")} className="d-block w-100" alt="..." />
+                        <img src={require("../../images/c2.jpg")} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
@@ -66,7 +67,7 @@ const Main = () => {
                         <div className="card-body">
                             <h5 className="card-title">Special title treatment</h5>
                             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                            <Link href="#" className="btn btn-primary">Go somewhere</Link>
                         </div>
                         <div className="card-footer text-muted">
                             2 days ago
@@ -80,7 +81,7 @@ const Main = () => {
                         <div className="card-body">
                             <h5 className="card-title">Special title treatment</h5>
                             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                            <Link href="#" className="btn btn-primary">Go somewhere</Link>
                         </div>
                         <div className="card-footer text-muted">
                             2 days ago

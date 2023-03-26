@@ -6,44 +6,44 @@ import MainThree from './Component/threeJs/Main';
 const App = () => {
   return (
     <div className='app'>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" href="#">Navbar</Link>
+      <nav className="navbar navbar-expand-lg navbar-light " >
+        <Link className="navbar-brand font1" to={"/"}
+          style={{
+            textShadow:"2px 2px 3px grey",
+            padding:"4px",
+            fontSize:"2rem",
+            letterSpacing:"2px"
+          }}
+        >
+          <span style={{color:"blue",fontSize:"2.5rem"}} >D</span>
+          <span style={{color:"red"}} >H</span>
+          <span style={{color:"yellow"}} >A</span>
+          <span style={{color:"green"}} >R</span>
+          <span style={{color:"blue"}} >A</span>
+          <span style={{color:"red"}} >A</span>
+          </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <Link className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+            <li className="nav-item ">
+              <Link className="nav-link" to={"/"}>Home <span className="sr-only">(current)</span></Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#">Link</Link>
+            <li className="nav-item ">
+              <Link className="nav-link" to={"/virtual"}>Virtual</Link>
             </li>
-            <li className="nav-item dropdown">
-              <Link className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </Link>
-              <div className="dropdown-menu">
-                <Link className="dropdown-item" href="#">Action</Link>
-                <Link className="dropdown-item" href="#">Another action</Link>
-                <div className="dropdown-divider"></div>
-                <Link className="dropdown-item" href="#">Something else here</Link>
-              </div>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link disabled">Disabled</Link>
+            <li className="nav-item ">
+              <Link className="nav-link" to={"/virtual"}>Virtual</Link>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
-            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
+
       <Routes>
-        {/* <Route path="/" element={<Mainlanding />} /> */}
-        <Route path="/" element={<MainThree/>} />
+        <Route path="/" element={<Mainlanding />} />
+        <Route path="/virtual" element={<MainThree/>} />
       </Routes>
     </div>
   )

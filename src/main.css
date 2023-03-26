@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 *{
     overflow-x: hidden;
     box-sizing: border-box;
+}
+.font1{
+    font-family: 'Righteous', cursive;
 }
 .app{
     background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)),url("./images/bc.avif") center center no-repeat fixed;
@@ -21,4 +25,11 @@
 .hr{
     width: 95%;
     background: gray;
+}
+.grid{
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 1rem;
 }
