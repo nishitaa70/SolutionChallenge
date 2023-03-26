@@ -17,6 +17,8 @@ const Card = (props) => {
                         <Link to={props.link} className="btn btn-dark">Explore!!!</Link>
                     </div>
             </div>
+
+            
         </>
     )
 }
