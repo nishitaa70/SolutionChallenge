@@ -8,7 +8,8 @@ const Heading = (props) => {
         textAlign:"center",
         margin:"2rem 0",
         textTransform: "uppercase",
-        textShadow:"1px 1px 5px gray"
+        textShadow:"1px 1px 5px gray",
+        overflow:"hidden"
     }
   return (
     <>
