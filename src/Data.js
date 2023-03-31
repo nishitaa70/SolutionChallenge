@@ -86,4 +86,27 @@ const Solar = [
         link:" https://www.luminousindia.com/product-listing/solar-solutions/solar-panels/31e92abe-ed67-4127-8ef5-6b1fecd809c9",
     },
 ]
-export  {Tree,Nav,Solar}
+const Team = [
+    {
+        name:"Abhinav Yadav",
+        desg:"Member 1",
+        linkedin:"https://www.linkedin.com/in/yabhi1205/",
+        github:"https://github.com/yabhi1205",
+        portfolio:"#"
+    },
+    {
+        name:"Abhishek Singhal",
+        desg:"Member 2",
+        linkedin:"https://www.linkedin.com/in/abhishek-singhal-112001/",
+        github:"https://github.com/Abhimrt",
+        portfolio:"https://abhisheksinghal.tk/"
+    },
+    {
+        name:"Nishita Sharma",
+        desg:"Member 3",
+        linkedin:"https://www.linkedin.com/in/nishita-sharma-074020202/",
+        github:"#",
+        portfolio:"#"
+    },
+]
+export  {Tree,Nav,Solar,Team}

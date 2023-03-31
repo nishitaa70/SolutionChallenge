@@ -39,25 +39,25 @@ p{
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
 }
-.contact{
+.contactForm{
     width: 50vw;
     margin: auto;
-    background-color: green;
+    background-color: rgba(4, 107, 4, 0.71);
     height: 80vh;
     border-radius: 20px;
 }
-.contact form{
+.contactForm form{
     padding: 2rem;
     border-radius: 10px;
     background-color: #fff;
 }
-.contact span,.contact input,.contact textarea{
+.contactForm span,.contactForm input,.contactForm textarea{
     background-color: transparent;
     /* border: none; */
     outline: none;
     border-bottom: 1px solid grey;
 }
-.contact span{
+.contactForm span{
     border-right:1px solid grey ;
     width: 100px;
 }
@@ -83,7 +83,126 @@ p{
     width: 100%;
     height: 80vh !important;
 }
-
+/* contact */
+.content {
+    margin: 2rem 0;
+  }
+  .content .card {
+    margin: 1rem auto;
+    width: 70vw;
+    overflow: hidden;
+    position: relative;
+  }
+  .content .card-header {
+    background-color: white;
+    color: white;
+    z-index: 9;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  .content .card-header i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: greenyellow;
+  }
+  .content ul {
+    position: relative;
+    transition: .3s all ease;
+    max-height: 40vh;
+    overflow: scroll;
+  }
+  .content .abs {
+    position: absolute;
+  }
+  .content .list-group-item {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    transition: .3s all ease;
+  }
+  .content .list-group-item:hover {
+    background-color: #c8eff9;
+  }
+  .content .list-group-item i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact h2 {
+    text-align: center;
+  }
+  .contact .team {
+    width: 95vw;
+    margin: auto;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around !important;
+    overflow: hidden;
+  }
+  .contact .team .team_card {
+    width: 400px;
+    aspect-ratio: 0.8;
+    background: linear-gradient(transparent 30%, white);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    transition: .3s all ease;
+  }
+  .contact .team .team_card:nth-child(odd) {
+    transform: translateY(5%);
+  }
+  .contact .team .team_card:nth-child(odd):hover {
+    transform: none;
+  }
+  .contact .team .team_card:hover {
+    transform: translateY(-5%);
+    box-shadow: 0px 23px 10px rgba(0, 0, 0, 0.25);
+  }
+  .contact .team .team_card .team_up {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./images/team_bc.png") center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .contact .team .team_card .team_up img {
+    width: 40%;
+    border-radius: 50%;
+    transform: translateY(10%);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5), -1px -1px 5px rgba(0, 0, 0, 0.5), inset 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
+  .contact .team .team_card .team_down {
+    width: 100%;
+    height: 50%;
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact .team .team_card .team_down h3 {
+    color: rgba(0, 0, 0, 0.75);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  .contact .team .team_card .team_down .links {
+    font-size: 1.5rem;
+  }
+  .contact .team .team_card .team_down .links i {
+    margin: 0 1rem;
+    cursor: pointer;
+    color: #558dca;
+  }
 @media only screen and (max-width: 900px) {
     .grid {
         grid-template-columns: 1fr ;
@@ -124,6 +243,12 @@ p{
 .canvas{
     height: 50vh;
 }
+.content .card {
+    width: 90vw;
+  }
+  .team {
+    flex-direction: column;
+  }
   }
 @media only screen and (max-width: 1100px) {
     

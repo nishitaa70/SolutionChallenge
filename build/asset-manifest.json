@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SolutionChallenge/static/css/main.7c86981a.css",
-    "main.js": "/SolutionChallenge/static/js/main.efc1df2a.js",
+    "main.css": "/SolutionChallenge/static/css/main.94b78f56.css",
+    "main.js": "/SolutionChallenge/static/js/main.dbae130d.js",
     "static/media/Arjuna.glb": "/SolutionChallenge/static/media/Arjuna.09943fbc3a9cec449361.glb",
     "static/media/c2.webp": "/SolutionChallenge/static/media/c2.824f24d63784406c68fb.webp",
     "static/media/c3.webp": "/SolutionChallenge/static/media/c3.5aa3c38cda36b39e5c91.webp",
@@ -25,11 +25,11 @@
     "static/media/ashoka(2).webp": "/SolutionChallenge/static/media/ashoka(2).7fabe017f429241d4a41.webp",
     "static/media/Arjuna.webp": "/SolutionChallenge/static/media/Arjuna.284bee058684fd1f4dfb.webp",
     "index.html": "/SolutionChallenge/index.html",
-    "main.7c86981a.css.map": "/SolutionChallenge/static/css/main.7c86981a.css.map",
-    "main.efc1df2a.js.map": "/SolutionChallenge/static/js/main.efc1df2a.js.map"
+    "main.94b78f56.css.map": "/SolutionChallenge/static/css/main.94b78f56.css.map",
+    "main.dbae130d.js.map": "/SolutionChallenge/static/js/main.dbae130d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c86981a.css",
-    "static/js/main.efc1df2a.js"
+    "static/css/main.94b78f56.css",
+    "static/js/main.dbae130d.js"
   ]
 }
