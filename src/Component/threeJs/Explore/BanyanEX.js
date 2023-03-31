@@ -16,7 +16,7 @@ const BanyanEX = () => {
         </div>
         <br />
         <section className='center'>
-            <img src={require("../../../images/tree/banyan.png")}  alt="" />
+            <img src={require("../../../images/tree/banyan(2).webp")}  alt="" />
         </section>
         <br />
         

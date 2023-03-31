@@ -15,7 +15,7 @@ const PeepalEx = () => {
         </div>
         <br />
         <section className='center'>
-            <img src={require("../../../images/tree/peepal.png")}  alt="" />
+            <img src={require("../../../images/tree/peepal(2).webp")}  alt="" />
         </section>
         <br />
         

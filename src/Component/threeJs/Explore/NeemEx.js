@@ -15,7 +15,7 @@ const NeemEx = () => {
     </div>
     <br />
     <section className='center'>
-        <img src={require("../../../images/tree/neem.png")}  alt="" />
+        <img src={require("../../../images/tree/neem(2).webp")}  alt="" />
     </section>
     <br />
     

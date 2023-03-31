@@ -1,15 +1,11 @@
 {
   "files": {
     "main.css": "/SolutionChallenge/static/css/main.08038f1d.css",
-    "main.js": "/SolutionChallenge/static/js/main.2c8fc4a3.js",
+    "main.js": "/SolutionChallenge/static/js/main.af05c606.js",
     "static/media/Arjuna.glb": "/SolutionChallenge/static/media/Arjuna.09943fbc3a9cec449361.glb",
     "static/media/landing.gif": "/SolutionChallenge/static/media/landing.3c0cbbbfd61d8a1cdaab.gif",
-    "static/media/s2.jpeg": "/SolutionChallenge/static/media/s2.ae0960a6d3fae01d99f5.jpeg",
     "static/media/TataSolar.png": "/SolutionChallenge/static/media/TataSolar.92b744e6ded5faae1052.png",
-    "static/media/s1.jpeg": "/SolutionChallenge/static/media/s1.c6c5749d874d1b486234.jpeg",
-    "static/media/s3.jpeg": "/SolutionChallenge/static/media/s3.96646b8be7b25dd3205e.jpeg",
     "static/media/solarTop.png": "/SolutionChallenge/static/media/solarTop.a989c2f9728604f738b1.png",
-    "static/media/landing.mp4": "/SolutionChallenge/static/media/landing.83b98b239962818bb8c9.mp4",
     "static/media/c2.webp": "/SolutionChallenge/static/media/c2.824f24d63784406c68fb.webp",
     "static/media/bael.png": "/SolutionChallenge/static/media/bael.263b1371c8896d117f2c.png",
     "static/media/arjuna.png": "/SolutionChallenge/static/media/arjuna.b5f6bdcad741b8c4f849.png",
@@ -31,10 +27,10 @@
     "static/media/Arjuna.jpg": "/SolutionChallenge/static/media/Arjuna.43dad21a9f34eb5f21b3.jpg",
     "index.html": "/SolutionChallenge/index.html",
     "main.08038f1d.css.map": "/SolutionChallenge/static/css/main.08038f1d.css.map",
-    "main.2c8fc4a3.js.map": "/SolutionChallenge/static/js/main.2c8fc4a3.js.map"
+    "main.af05c606.js.map": "/SolutionChallenge/static/js/main.af05c606.js.map"
   },
   "entrypoints": [
     "static/css/main.08038f1d.css",
-    "static/js/main.2c8fc4a3.js"
+    "static/js/main.af05c606.js"
   ]
 }

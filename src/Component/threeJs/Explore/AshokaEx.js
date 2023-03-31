@@ -17,7 +17,7 @@ It would be useful to consider an array of Ashoka trees around your society/ pla
     </div>
     <br />
     <section className='center'>
-        <img src={require("../../../images/tree/ashoka.png")}  alt="" />
+        <img src={require("../../../images/tree/ashoka(2).webp")}  alt="" />
     </section>
     <br />
     

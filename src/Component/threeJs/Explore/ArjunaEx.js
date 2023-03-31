@@ -15,7 +15,7 @@ const ArjunaEx = () => {
     </div>
     <br />
     <section className='center'>
-        <img src={require("../../../images/tree/arjuna.png")}  alt="" />
+        <img src={require("../../../images/tree/arjuna(2).webp")}  alt="" />
     </section>
     <br />
     

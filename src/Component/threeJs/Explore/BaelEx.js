@@ -16,7 +16,7 @@ const BaelEx = () => {
         </div>
         <br />
         <section className='center'>
-            <img src={require("../../../images/tree/bael.png")}  alt="" />
+            <img src={require("../../../images/tree/bael(2).webp")}  alt="" />
         </section>
         <br />
         

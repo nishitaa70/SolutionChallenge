@@ -44,7 +44,7 @@ const Awareness = () => {
                 </div>
 
                 </div>
-                <img src={require("../../images/aware.jpeg")} alt="" className='w-75'/>
+                <img src={require("../../images/aware.webp")} alt="" className='w-75'/>
                <div>
                <div className="center justify-content-start mt-5 res">
                     <p className='center res'>
