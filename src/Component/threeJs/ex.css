@@ -1,0 +1,22 @@
+.ex{
+    width: 90vw;
+    margin: auto;
+    text-shadow: 1px 1px 3px grey;
+    position: relative;
+}
+.ex div{
+    width: 85%;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+.ex li{
+    letter-spacing: 1.5px;
+}
+.ex img{
+    width: 60%;
+    margin: auto;
+}
+.ex section{
+    
+    width: 100%;
+}

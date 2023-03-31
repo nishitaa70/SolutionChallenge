@@ -3,6 +3,9 @@
     overflow-x: hidden;
     box-sizing: border-box;
 }
+p{
+    text-shadow: 0px 0px 3px grey;
+}
 .font1{
     font-family: 'Righteous', cursive;
 }
@@ -27,9 +30,105 @@
     background: gray;
 }
 .grid{
-    padding: 1rem;
+    /* padding: 1rem; */
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
 }
+.contact{
+    width: 50vw;
+    margin: auto;
+    background-color: green;
+    height: 80vh;
+    border-radius: 20px;
+}
+.contact form{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.contact span,.contact input,.contact textarea{
+    background-color: transparent;
+    /* border: none; */
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+.contact span{
+    border-right:1px solid grey ;
+    width: 100px;
+}
+.flex{
+    width: 95%;
+    margin: auto;
+    min-height: 80vh;
+
+}
+.Innerflex{
+    width: 49%;
+    text-shadow: 0px 0px 5px grey;
+    max-height: 100vh;
+}
+.Innerflex p{
+    font-size: 1.4rem;  
+     
+}
+.Innerflex .btn{
+    overflow: hidden;
+}
+.canva{
+    width: 100%;
+    height: 80vh !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr ;
+    }
+    .card{
+        width: 90vw !important;
+        margin: auto;
+    }
+    .ex div{
+        width: 100%;
+    }
+    .contact{
+        width: 95vw;
+    }
+    .flex{
+        width: 100vw !important;
+        flex-direction: column;
+        height: 120vh;
+    }
+    .Innerflex{
+        width: 100%;
+    }
+    .canva{
+    width: 100%;
+    height: 50vh !important;
+}
+.res{
+    flex-direction: column;
+    justify-content: center;
+}
+.Innerflex p{
+    font-size: 1rem;   
+}
+.threeD{
+    width: 100vw;
+    height: 50vh;
+}
+.canvas{
+    height: 50vh;
+}
+  }
+@media only screen and (max-width: 1100px) {
+    
+    .card{
+        width: 400px !important;
+        margin: auto;
+    }
+    .ex section{
+        bottom: 10px;
+    }
+  }
