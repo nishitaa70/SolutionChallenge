@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SolutionChallenge/static/css/main.94b78f56.css",
-    "main.js": "/SolutionChallenge/static/js/main.dbae130d.js",
+    "main.css": "/SolutionChallenge/static/css/main.7affec32.css",
+    "main.js": "/SolutionChallenge/static/js/main.c7a12ed5.js",
     "static/media/Arjuna.glb": "/SolutionChallenge/static/media/Arjuna.09943fbc3a9cec449361.glb",
     "static/media/c2.webp": "/SolutionChallenge/static/media/c2.824f24d63784406c68fb.webp",
     "static/media/c3.webp": "/SolutionChallenge/static/media/c3.5aa3c38cda36b39e5c91.webp",
@@ -9,6 +9,7 @@
     "static/media/c1.webp": "/SolutionChallenge/static/media/c1.ce77f9795dfc5540a844.webp",
     "static/media/Peepal.webp": "/SolutionChallenge/static/media/Peepal.6a4477d8b7d52d51a7be.webp",
     "static/media/arjuna(2).webp": "/SolutionChallenge/static/media/arjuna(2).447c7e60860840938e65.webp",
+    "static/media/team_bc.png": "/SolutionChallenge/static/media/team_bc.5a72e7307207bbf5404f.png",
     "static/media/TataSolar.webp": "/SolutionChallenge/static/media/TataSolar.196e4a751fb1ec0fc26d.webp",
     "static/media/solarTop.webp": "/SolutionChallenge/static/media/solarTop.35ffef8fd025eebe8064.webp",
     "static/media/Banyan.webp": "/SolutionChallenge/static/media/Banyan.c52bb7cc261a05d76009.webp",
@@ -20,16 +21,19 @@
     "static/media/Bel.webp": "/SolutionChallenge/static/media/Bel.7124b78a86fc8be90f6d.webp",
     "static/media/neem(2).webp": "/SolutionChallenge/static/media/neem(2).2333031ce9ef69922e3c.webp",
     "static/media/LoomSolar.webp": "/SolutionChallenge/static/media/LoomSolar.479bebd532b069fcc983.webp",
+    "static/media/Abhinav Yadav.jpeg": "/SolutionChallenge/static/media/Abhinav Yadav.a3c2ddfc3e45d68e0232.jpeg",
     "static/media/LuminousSolar.webp": "/SolutionChallenge/static/media/LuminousSolar.94beb4ec065b18a3c48f.webp",
+    "static/media/Abhishek Singhal.jpeg": "/SolutionChallenge/static/media/Abhishek Singhal.f23b38a35d9777f1f9ac.jpeg",
     "static/media/peepal(2).webp": "/SolutionChallenge/static/media/peepal(2).d6bb356a1fc93bbdb43f.webp",
+    "static/media/Nishita Sharma.jpeg": "/SolutionChallenge/static/media/Nishita Sharma.1085dc6905bfe6392d0d.jpeg",
     "static/media/ashoka(2).webp": "/SolutionChallenge/static/media/ashoka(2).7fabe017f429241d4a41.webp",
     "static/media/Arjuna.webp": "/SolutionChallenge/static/media/Arjuna.284bee058684fd1f4dfb.webp",
     "index.html": "/SolutionChallenge/index.html",
-    "main.94b78f56.css.map": "/SolutionChallenge/static/css/main.94b78f56.css.map",
-    "main.dbae130d.js.map": "/SolutionChallenge/static/js/main.dbae130d.js.map"
+    "main.7affec32.css.map": "/SolutionChallenge/static/css/main.7affec32.css.map",
+    "main.c7a12ed5.js.map": "/SolutionChallenge/static/js/main.c7a12ed5.js.map"
   },
   "entrypoints": [
-    "static/css/main.94b78f56.css",
-    "static/js/main.dbae130d.js"
+    "static/css/main.7affec32.css",
+    "static/js/main.c7a12ed5.js"
   ]
 }

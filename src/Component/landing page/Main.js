@@ -35,7 +35,7 @@ const Main = () => {
                         </div>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>DHARAA</h5>
-                            <p>Dharaa name meaning in Hindi is <b>धरती</b>. Dharaa meaning in english is <b>Earth</b>.</p>
+                            <p>Dharaa meaning in Hindi is <b>धरती</b>. Dharaa meaning in english is <b>Earth</b>.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
